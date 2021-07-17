@@ -1,0 +1,55 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\begin{document}
+\begin{center}
+\textbf{Lista 5 - Estatística Descritiva}
+\end{center}
+
+\textbf{Cap. 6 - 18 - a)} O parâmetro $\alpha$ corresponde ao logaritmo da chance de uma criança do gênero feminino com 5 anos de idade preferir Kcola \\
+
+O parâmetro $\beta$ corresponde ao logaritmo da razão entre a chance de uma criança do gênero masculino preferir Kcola sobre a chance de uma criança do gênero feminino com mesma idade preferir o refrigerante. \\
+
+O parâmetro $\gamma$ corresponde ao logaritmo da razão entre a chance de uma criança com idade $x_i$ preferir Kcola e a chance de uma criança de mesmo gênero com idade $x_i + 1$ preferir o refrigerante. \\ \\
+
+\textbf{b)} Sabemos que a chance de uma criança de gênero $x_i$ e idade $w_i$ preferir Kcola é dada por $\frac{\pi_i(x_i, w_i)}{1 - \pi_i(x_i, w_i)}$, logo, o modelo ajustado nos dá o logaritmo da chance de uma criança de gênero $x_i$ e idade $w_i$ preferir Kcola, assim, vamos considerar $x_i = 1$ e calcular a chance correspondente para as crianças com 10 e 15 anos sendo indicadas, respectivamente, por $c_1$ e $c_2$: \\
+
+$log(c_1) = \frac{\pi_1(1, 10)}{1 - \pi_i(1, 10)} = \alpha + \beta x_i + \gamma (w_i - 5) = 0.69 + 0.33 * 1 - 0.03 * 5 = 0.87$
+
+$log(c_2) = \frac{\pi_2(1, 15)}{1 - \pi_2(1, 15)} = \alpha + \beta x_i + \gamma (w_i - 5) = 0.69 + 0.33 * 1 - 0.03 * 10 = 0.72$ 
+
+Logo, temos que: $c_1 = exp(0.87) = 2.39$ e $c_2 = exp(0.72) = 2.05$, e a razão de razão de chances de preferência por Kcola para a comparação entre crianças de 10 e 15 anos é dada por $\frac{2.38}{2.05} = 1.16$ \\ \\
+
+\textbf{c)} Para encontrar os intervalos de confianças para $exp(\beta)$ e $exp(\gamma)$ podem ser dados pela exponenciação dos limites dos intervalos de confiança para os parêmtros $\beta$ e $\gamma$, ou seja, são dados por:
+
+\begin{center}
+$IC_1(95\%) = exp(\beta \pm 1.96 * stderr (\beta))$
+
+$IC_2(95\%) = exp(\gamma\pm 1.96 * stderr (\gamma))$
+\end{center}
+
+Assim, obtemos:
+
+\begin{center}
+	\begin{tabular}{| c | c c c |}
+	\hline
+	Intervalo de confiança & $e^{\textbf{Estimativa}}$ & Limite inferior & Limite superior \\
+	\hline
+	$\beta$ & 1.39 & 1.14 & 1.69 \\
+	\hline
+	$\gamma$ & 0.97 & 0.96 & 0.98 \\
+	\hline
+	\end{tabular}
+\end{center}
+
+Para o intervalo de $exp(\beta)$, podemos dizer que a para cada criança com 5 anos do gênero feminino no mínimo 1.14 e no máximo 1.69 crianças do sexo masculino, da mesma idade, têm mais chance de preferir o refrigerante. 
+
+Analogamente, para $exp(\gamma)$, pode-se entender que para cada criança de certa idade, pelo menos 0.96 e no máximo 0.98 crianças com 1 ano a mais preferir Kcola. \\ \\
+
+\textbf{d)} Podemos calcular a probabilidade de meninos de 15 anos preferirem Kcola como sendo: 
+
+$\pi(1,15) = \displaystyle\frac{exp(\alpha + \beta x_i + \gamma w_i)}{1 + exp(\alpha + \beta x_i + \gamma w_i)} = \displaystyle\frac{exp(0.69 + 0.33 * 1 - 0.03 * 10}{1 + 0.69 + 0.33 * 1 - 0.03 * 10} = 0.67$
+\end{document}
