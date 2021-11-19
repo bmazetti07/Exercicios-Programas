@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "EP1",
+    "slug": "EP1",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "orientation": "portrait"
+  },
+  "name": "EP1"
+}
