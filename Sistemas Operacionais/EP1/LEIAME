@@ -1,0 +1,5 @@
+Como compilar os binários:
+Os binários dos programas "bccsh.c" e "ep1.c" podem ser compilados digitando apenas "make" na linha de comando do terminal.
+
+Como executar os binários:
+Os binários são executados da seguinte maneira no terminal: ./<nome_do_binario> <argumentos_especificados_no_enunciado>
