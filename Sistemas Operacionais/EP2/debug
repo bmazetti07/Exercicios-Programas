@@ -1,0 +1,1246 @@
+  5|120| -1    | -1|    
+  9|120| -1    | -1|    
+  7|120| -1    | -1|    
+  4|120| -1    | -1|    
+  6|120| -1    | -1|    
+   | -1|      3|120| -1 
+   | -1|      2|120| -1 
+   | -1|      1|120| -1 
+   | -1|      8|120| -1 
+   | -1|      0|120| -1 
+ITERACAO 0 e volta atual 0
+
+  5|120| -1    | -1|    
+  9|120| -1    | -1|    
+  7|120| -1    | -1|    
+  4|120| -1    | -1|    
+  6|120| -1    | -1|    
+   | -1|      3|120| -1 
+   | -1|      2|120| -1 
+   | -1|      1|120| -1 
+   | -1|      8|120| -1 
+   | -1|      0|120| -1 
+Contador de Ciclistas: 0 e nCiclistas: 10
+Liberei as threads
+As voltas completas de 2 eh == 0
+As voltas completas de 8 eh == 0
+As voltas completas de 3 eh == 0
+As voltas completas de 0 eh == 0
+As voltas completas de 1 eh == 0
+ITERACAO 1 e volta atual 0
+
+   | -1|      5|120| -1 
+   | -1|      9|120| -1 
+   | -1|      7|120| -1 
+   | -1|      4|120| -1 
+   | -1|      6|120| -1 
+  3|120|  0    | -1|    
+  2|120|  0    | -1|    
+  1|120|  0    | -1|    
+  8|120|  0    | -1|    
+  0|120|  0    | -1|    
+Contador de Ciclistas: 5 e nCiclistas: 10
+1º - 2
+2º - 8
+3º - 3
+4º - 0
+5º - 1
+Liberei as threads
+ITERACAO 2 e volta atual 0
+
+   | -1|      5|120| -1 
+   | -1|      9|120| -1 
+   | -1|      7|120| -1 
+   | -1|      4|120| -1 
+   | -1|      6|120| -1 
+  3|120|  0    | -1|    
+  2|120|  0    | -1|    
+  1|120|  0    | -1|    
+  8|120|  0    | -1|    
+  0|120|  0    | -1|    
+Contador de Ciclistas: 5 e nCiclistas: 10
+1º - 2
+2º - 8
+3º - 3
+4º - 0
+5º - 1
+Liberei as threads
+As voltas completas de 4 eh == 0
+As voltas completas de 9 eh == 0
+As voltas completas de 7 eh == 0
+As voltas completas de 6 eh == 0
+As voltas completas de 5 eh == 0
+ITERACAO 3 e volta atual 0
+
+  5|120|  0    | -1|    
+  9|120|  0    | -1|    
+  7|120|  0    | -1|    
+  4|120|  0    | -1|    
+  6|120|  0    | -1|    
+   | -1|      3|120|  0 
+   | -1|      2|120|  0 
+   | -1|      1|120|  0 
+   | -1|      8|120|  0 
+   | -1|      0|120|  0 
+Contador de Ciclistas: 10 e nCiclistas: 10
+1º - 2
+2º - 8
+3º - 3
+4º - 0
+5º - 1
+6º - 4
+7º - 9
+8º - 7
+9º - 6
+10º - 5
+1º - 2
+2º - 8
+3º - 3
+4º - 0
+5º - 1
+6º - 4
+7º - 9
+8º - 7
+9º - 6
+10º - 5
+Liberei as threads
+ITERACAO 4 e volta atual 1
+
+  5|120|  0    | -1|    
+  9|120|  0    | -1|    
+  7|120|  0    | -1|    
+  4|120|  0    | -1|    
+  6|120|  0    | -1|    
+   | -1|      3|120|  0 
+   | -1|      2|120|  0 
+   | -1|      1|120|  0 
+   | -1|      8|120|  0 
+   | -1|      0|120|  0 
+Contador de Ciclistas: 0 e nCiclistas: 10
+Liberei as threads
+As voltas completas de 3 eh == 1
+As voltas completas de 0 eh == 1
+Mudei a velocidade do ciclista 3 de 30 para 60
+As voltas completas de 2 eh == 1
+As voltas completas de 1 eh == 1
+Mudei a velocidade do ciclista 1 de 30 para 60
+As voltas completas de 8 eh == 1
+Mudei a velocidade do ciclista 8 de 30 para 60
+ITERACAO 5 e volta atual 1
+
+   | -1|      5|120|  0 
+   | -1|      9|120|  0 
+   | -1|      7|120|  0 
+   | -1|      4|120|  0 
+   | -1|      6|120|  0 
+  3| 60|  1    | -1|    
+  2|120|  1    | -1|    
+  1| 60|  1    | -1|    
+  8| 60|  1    | -1|    
+  0|120|  1    | -1|    
+Contador de Ciclistas: 5 e nCiclistas: 10
+1º - 0
+2º - 3
+3º - 2
+4º - 1
+5º - 8
+Liberei as threads
+ITERACAO 6 e volta atual 1
+
+   | -1|      5|120|  0 
+   | -1|      9|120|  0 
+   | -1|      7|120|  0 
+   | -1|      4|120|  0 
+   | -1|      6|120|  0 
+   | -1|      3| 60|  1 
+  2|120|  1    | -1|    
+   | -1|      1| 60|  1 
+   | -1|      8| 60|  1 
+  0|120|  1    | -1|    
+Contador de Ciclistas: 5 e nCiclistas: 10
+1º - 0
+2º - 3
+3º - 2
+4º - 1
+5º - 8
+Liberei as threads
+As voltas completas de 1 eh == 2
+As voltas completas de 9 eh == 1
+Mudei a velocidade do ciclista 9 de 30 para 60
+As voltas completas de 5 eh == 1
+As voltas completas de 6 eh == 1
+As voltas completas de 8 eh == 2
+As voltas completas de 7 eh == 1
+Mudei a velocidade do ciclista 6 de 30 para 60
+As voltas completas de 4 eh == 1
+Mudei a velocidade do ciclista 4 de 30 para 60
+As voltas completas de 3 eh == 2
+Mudei a velocidade do ciclista 3 de 60 para 30
+ITERACAO 7 e volta atual 1
+
+  5|120|  1    | -1|    
+  9| 60|  1    | -1|    
+  7|120|  1    | -1|    
+  4| 60|  1    | -1|    
+  6| 60|  1    | -1|    
+  3|120|  2    | -1|    
+   | -1|      2|120|  1 
+  1| 60|  2    | -1|    
+  8| 60|  2    | -1|    
+   | -1|      0|120|  1 
+Contador de Ciclistas: 10 e nCiclistas: 10
+1º - 0
+2º - 3
+3º - 2
+4º - 1
+5º - 8
+6º - 9
+7º - 5
+8º - 7
+9º - 6
+10º - 4
+1º - 0
+2º - 3
+3º - 2
+4º - 1
+5º - 8
+6º - 9
+7º - 5
+8º - 7
+9º - 6
+10º - 4
+Mudei a Pista, se liga: 
+  5|120|  1    | -1|    
+  9| 60|  1    | -1|    
+  7|120|  1    | -1|    
+  4| 60|  1    | -1|    
+  6| 60|  1    | -1|    
+  3|120|  2    | -1|    
+   | -1|      2|120|  1 
+  1| 60|  2    | -1|    
+  8| 60|  2    | -1|    
+   | -1|      0|120|  1 
+Liberei as threads
+ITERACAO 8 e volta atual 2
+
+  5|120|  1    | -1|    
+   | -1|      9| 60|  1 
+  7|120|  1    | -1|    
+   | -1|      4| 60|  1 
+   | -1|      6| 60|  1 
+  3|120|  2    | -1|    
+   | -1|      2|120|  1 
+   | -1|      1| 60|  2 
+   | -1|      8| 60|  2 
+   | -1|      0|120|  1 
+Contador de Ciclistas: 3 e nCiclistas: 10
+1º - 1
+2º - 8
+3º - 3
+Liberei as threads
+As voltas completas de 1 eh == 3
+Mudei a velocidade do ciclista 1 de 60 para 30
+As voltas completas de 2 eh == 2
+Mudei a velocidade do ciclista 2 de 30 para 60
+As voltas completas de 4 eh == 2
+As voltas completas de 8 eh == 3
+Mudei a velocidade do ciclista 4 de 60 para 30
+As voltas completas de 6 eh == 2
+As voltas completas de 0 eh == 2
+Mudei a velocidade do ciclista 0 de 30 para 60
+As voltas completas de 9 eh == 2
+ITERACAO 9 e volta atual 2
+
+   | -1|      5|120|  1 
+  9| 60|  2    | -1|    
+   | -1|      7|120|  1 
+  4|120|  2    | -1|    
+  6| 60|  2    | -1|    
+   | -1|      3|120|  2 
+  2| 60|  2    | -1|    
+  1|120|  3    | -1|    
+  8| 60|  3    | -1|    
+  0| 60|  2    | -1|    
+Contador de Ciclistas: 8 e nCiclistas: 10
+1º - 1
+2º - 8
+3º - 3
+4º - 2
+5º - 4
+6º - 6
+7º - 0
+8º - 9
+Liberei as threads
+ITERACAO 10 e volta atual 2
+
+   | -1|      5|120|  1 
+   | -1|      9| 60|  2 
+   | -1|      7|120|  1 
+  4|120|  2    | -1|    
+   | -1|      6| 60|  2 
+   | -1|      3|120|  2 
+   | -1|      2| 60|  2 
+  1|120|  3    | -1|    
+   | -1|      8| 60|  3 
+   | -1|      0| 60|  2 
+Contador de Ciclistas: 8 e nCiclistas: 10
+1º - 1
+2º - 8
+3º - 3
+4º - 2
+5º - 4
+6º - 6
+7º - 0
+8º - 9
+Liberei as threads
+As voltas completas de 7 eh == 2
+Mudei a velocidade do ciclista 7 de 30 para 60
+As voltas completas de 5 eh == 2
+Mudei a velocidade do ciclista 5 de 30 para 60
+As voltas completas de 9 eh == 3
+As voltas completas de 6 eh == 3
+Mudei a velocidade do ciclista 6 de 60 para 30
+As voltas completas de 0 eh == 3
+As voltas completas de 8 eh == 4
+Mudei a velocidade do ciclista 8 de 60 para 30
+As voltas completas de 2 eh == 3
+As voltas completas de 3 eh == 3
+ITERACAO 11 e volta atual 2
+
+  5| 60|  2    | -1|    
+  9| 60|  3    | -1|    
+  7| 60|  2    | -1|    
+   | -1|      4|120|  2 
+  6|120|  3    | -1|    
+  3|120|  3    | -1|    
+  2| 60|  3    | -1|    
+   | -1|      1|120|  3 
+  8|120|  4    | -1|    
+  0| 60|  3    | -1|    
+Contador de Ciclistas: 10 e nCiclistas: 10
+1º - 1
+2º - 8
+3º - 3
+4º - 2
+5º - 4
+6º - 6
+7º - 0
+8º - 9
+9º - 7
+10º - 5
+1º - 1
+2º - 8
+3º - 3
+4º - 2
+5º - 4
+6º - 6
+7º - 0
+8º - 9
+9º - 7
+10º - 5
+O último é: 5
+O último não quebrou
+Mudei a Pista, se liga: 
+  9| 60|  3    | -1|    
+  7| 60|  2    | -1|    
+   | -1|      4|120|  2 
+  6|120|  3    | -1|    
+  3|120|  3    | -1|    
+  2| 60|  3    | -1|    
+   | -1|      1|120|  3 
+  8|120|  4    | -1|    
+  0| 60|  3    | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 12 e volta atual 3
+
+   | -1|      9| 60|  3 
+   | -1|      7| 60|  2 
+   | -1|      4|120|  2 
+  6|120|  3    | -1|    
+  3|120|  3    | -1|    
+   | -1|      2| 60|  3 
+   | -1|      1|120|  3 
+  8|120|  4    | -1|    
+   | -1|      0| 60|  3 
+   | -1|       | -1|    
+Contador de Ciclistas: 7 e nCiclistas: 9
+1º - 1
+2º - 8
+3º - 9
+4º - 6
+5º - 0
+6º - 2
+7º - 3
+Liberei as threads
+As voltas completas de 2 eh == 4
+Mudei a velocidade do ciclista 2 de 60 para 30
+As voltas completas de 7 eh == 3
+As voltas completas de 4 eh == 3
+Mudei a velocidade do ciclista 4 de 30 para 60
+Mudei a velocidade do ciclista 7 de 60 para 30
+As voltas completas de 0 eh == 4
+As voltas completas de 9 eh == 4
+As voltas completas de 1 eh == 4
+Mudei a velocidade do ciclista 1 de 30 para 60
+ITERACAO 13 e volta atual 3
+
+  9| 60|  4    | -1|    
+  7|120|  3    | -1|    
+  4| 60|  3    | -1|    
+   | -1|      6|120|  3 
+   | -1|      3|120|  3 
+  2|120|  4    | -1|    
+  1| 60|  4    | -1|    
+   | -1|      8|120|  4 
+  0| 60|  4    | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 9 e nCiclistas: 9
+1º - 1
+2º - 8
+3º - 9
+4º - 6
+5º - 0
+6º - 2
+7º - 3
+8º - 4
+9º - 7
+1º - 1
+2º - 8
+3º - 9
+4º - 6
+5º - 0
+6º - 2
+7º - 3
+8º - 4
+9º - 7
+Mudei a Pista, se liga: 
+  9| 60|  4    | -1|    
+  7|120|  3    | -1|    
+  4| 60|  3    | -1|    
+   | -1|      6|120|  3 
+   | -1|      3|120|  3 
+  2|120|  4    | -1|    
+  1| 60|  4    | -1|    
+   | -1|      8|120|  4 
+  0| 60|  4    | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 14 e volta atual 4
+
+   | -1|      9| 60|  4 
+  7|120|  3    | -1|    
+   | -1|      4| 60|  3 
+   | -1|      6|120|  3 
+   | -1|      3|120|  3 
+  2|120|  4    | -1|    
+   | -1|      1| 60|  4 
+   | -1|      8|120|  4 
+   | -1|      0| 60|  4 
+   | -1|       | -1|    
+Contador de Ciclistas: 5 e nCiclistas: 9
+1º - 8
+2º - 2
+3º - 0
+4º - 9
+5º - 1
+Liberei as threads
+As voltas completas de 3 eh == 4
+Mudei a velocidade do ciclista 3 de 30 para 60
+As voltas completas de 0 eh == 5
+As voltas completas de 1 eh == 5
+As voltas completas de 9 eh == 5
+As voltas completas de 6 eh == 4
+Mudei a velocidade do ciclista 6 de 30 para 60
+As voltas completas de 4 eh == 4
+Mudei a velocidade do ciclista 4 de 60 para 30
+As voltas completas de 8 eh == 5
+Mudei a velocidade do ciclista 8 de 30 para 60
+ITERACAO 15 e volta atual 4
+
+  9| 60|  5    | -1|    
+   | -1|      7|120|  3 
+  4|120|  4    | -1|    
+  6| 60|  4    | -1|    
+  3| 60|  4    | -1|    
+   | -1|      2|120|  4 
+  1| 60|  5    | -1|    
+  8| 60|  5    | -1|    
+  0| 60|  5    | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 8 e nCiclistas: 9
+1º - 8
+2º - 2
+3º - 0
+4º - 9
+5º - 1
+6º - 3
+7º - 6
+8º - 4
+Liberei as threads
+ITERACAO 16 e volta atual 4
+
+   | -1|      9| 60|  5 
+   | -1|      7|120|  3 
+  4|120|  4    | -1|    
+   | -1|      6| 60|  4 
+   | -1|      3| 60|  4 
+   | -1|      2|120|  4 
+   | -1|      1| 60|  5 
+   | -1|      8| 60|  5 
+   | -1|      0| 60|  5 
+   | -1|       | -1|    
+Contador de Ciclistas: 8 e nCiclistas: 9
+1º - 8
+2º - 2
+3º - 0
+4º - 9
+5º - 1
+6º - 3
+7º - 6
+8º - 4
+Liberei as threads
+As voltas completas de 3 eh == 5
+As voltas completas de 7 eh == 4
+O ciclista 1 quebrou na volta 6
+Mudei a velocidade do ciclista 7 de 30 para 60
+As voltas completas de 2 eh == 5
+Mudei a velocidade do ciclista 2 de 30 para 60
+O ciclista 9 quebrou na volta 6
+As voltas completas de 0 eh == 6
+As voltas completas de 8 eh == 6
+Mudei a velocidade do ciclista 8 de 60 para 30
+As voltas completas de 6 eh == 5
+Mudei a velocidade do ciclista 6 de 60 para 30
+ITERACAO 17 e volta atual 4
+
+   | -1|       | -1|    
+  7| 60|  4    | -1|    
+   | -1|      4|120|  4 
+  6|120|  5    | -1|    
+  3| 60|  5    | -1|    
+  2| 60|  5    | -1|    
+   | -1|       | -1|    
+  8|120|  6    | -1|    
+  0| 60|  6    | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 9 e nCiclistas: 7
+1º - 8
+2º - 2
+3º - 0
+4º - 9
+5º - 1
+6º - 3
+7º - 6
+8º - 4
+9º - 7
+1º - 8
+2º - 2
+3º - 0
+4º - 9
+5º - 1
+6º - 3
+7º - 6
+8º - 4
+9º - 7
+O último é: 7
+O último não quebrou
+Mudei a Pista, se liga: 
+   | -1|      4|120|  4 
+  6|120|  5    | -1|    
+  3| 60|  5    | -1|    
+  2| 60|  5    | -1|    
+  8|120|  6    | -1|    
+  0| 60|  6    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 18 e volta atual 5
+
+   | -1|      4|120|  4 
+  6|120|  5    | -1|    
+   | -1|      3| 60|  5 
+   | -1|      2| 60|  5 
+  8|120|  6    | -1|    
+   | -1|      0| 60|  6 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 7 e nCiclistas: 6
+1º - 0
+2º - 1
+3º - 9
+4º - 8
+5º - 3
+6º - 2
+7º - 6
+Liberei as threads
+As voltas completas de 4 eh == 5
+Mudei a velocidade do ciclista 4 de 30 para 60
+As voltas completas de 0 eh == 7
+O ciclista 2 quebrou na volta 6
+As voltas completas de 3 eh == 6
+ITERACAO 19 e volta atual 5
+
+  4| 60|  5    | -1|    
+   | -1|      6|120|  5 
+  3| 60|  6    | -1|    
+   | -1|       | -1|    
+   | -1|      8|120|  6 
+  0| 60|  7    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 8 e nCiclistas: 5
+1º - 0
+2º - 1
+3º - 9
+4º - 8
+5º - 3
+6º - 2
+7º - 6
+8º - 4
+1º - 0
+2º - 1
+3º - 9
+4º - 8
+5º - 3
+6º - 2
+7º - 6
+8º - 4
+Mudei a Pista, se liga: 
+  4| 60|  5    | -1|    
+   | -1|      6|120|  5 
+  3| 60|  6    | -1|    
+   | -1|      8|120|  6 
+  0| 60|  7    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 20 e volta atual 6
+
+   | -1|      4| 60|  5 
+   | -1|      6|120|  5 
+   | -1|      3| 60|  6 
+   | -1|      8|120|  6 
+   | -1|      0| 60|  7 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 3 e nCiclistas: 5
+1º - 0
+2º - 8
+3º - 3
+Liberei as threads
+As voltas completas de 6 eh == 6
+Mudei a velocidade do ciclista 6 de 30 para 60
+As voltas completas de 4 eh == 6
+Mudei a velocidade do ciclista 4 de 60 para 30
+As voltas completas de 0 eh == 8
+Mudei a velocidade do ciclista 0 de 60 para 30
+As voltas completas de 3 eh == 7
+As voltas completas de 8 eh == 7
+ITERACAO 21 e volta atual 6
+
+  4|120|  6    | -1|    
+  6| 60|  6    | -1|    
+  3| 60|  7    | -1|    
+  8|120|  7    | -1|    
+  0|120|  8    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 5 e nCiclistas: 5
+1º - 0
+2º - 8
+3º - 3
+4º - 6
+5º - 4
+1º - 0
+2º - 8
+3º - 3
+4º - 6
+5º - 4
+O último é: 4
+O último não quebrou
+Mudei a Pista, se liga: 
+  6| 60|  6    | -1|    
+  3| 60|  7    | -1|    
+  8|120|  7    | -1|    
+  0|120|  8    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 22 e volta atual 7
+
+   | -1|      6| 60|  6 
+   | -1|      3| 60|  7 
+  8|120|  7    | -1|    
+  0|120|  8    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 3 e nCiclistas: 4
+1º - 0
+2º - 3
+3º - 8
+Liberei as threads
+As voltas completas de 6 eh == 7
+Mudei a velocidade do ciclista 6 de 60 para 30
+As voltas completas de 3 eh == 8
+Mudei a velocidade do ciclista 3 de 60 para 30
+ITERACAO 23 e volta atual 7
+
+  6|120|  7    | -1|    
+  3|120|  8    | -1|    
+   | -1|      8|120|  7 
+   | -1|      0|120|  8 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 4 e nCiclistas: 4
+1º - 0
+2º - 3
+3º - 8
+4º - 6
+1º - 0
+2º - 3
+3º - 8
+4º - 6
+Mudei a Pista, se liga: 
+  6|120|  7    | -1|    
+  3|120|  8    | -1|    
+   | -1|      8|120|  7 
+   | -1|      0|120|  8 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 24 e volta atual 8
+
+  6|120|  7    | -1|    
+  3|120|  8    | -1|    
+   | -1|      8|120|  7 
+   | -1|      0|120|  8 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 4
+1º - 0
+2º - 3
+Liberei as threads
+As voltas completas de 8 eh == 8
+As voltas completas de 0 eh == 9
+Mudei a velocidade do ciclista 0 de 30 para 60
+ITERACAO 25 e volta atual 8
+
+   | -1|      6|120|  7 
+   | -1|      3|120|  8 
+  8|120|  8    | -1|    
+  0| 60|  9    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 3 e nCiclistas: 4
+1º - 0
+2º - 3
+3º - 8
+Liberei as threads
+ITERACAO 26 e volta atual 8
+
+   | -1|      6|120|  7 
+   | -1|      3|120|  8 
+  8|120|  8    | -1|    
+   | -1|      0| 60|  9 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 3 e nCiclistas: 4
+1º - 0
+2º - 3
+3º - 8
+Liberei as threads
+As voltas completas de 3 eh == 9
+As voltas completas de 6 eh == 8
+Mudei a velocidade do ciclista 3 de 30 para 60
+Mudei a velocidade do ciclista 6 de 30 para 60
+As voltas completas de 0 eh == 10
+ITERACAO 27 e volta atual 8
+
+  6| 60|  8    | -1|    
+  3| 60|  9    | -1|    
+   | -1|      8|120|  8 
+  0| 60| 10    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 4 e nCiclistas: 4
+1º - 0
+2º - 3
+3º - 8
+4º - 6
+1º - 0
+2º - 3
+3º - 8
+4º - 6
+O último é: 6
+O último não quebrou
+Mudei a Pista, se liga: 
+  3| 60|  9    | -1|    
+   | -1|      8|120|  8 
+  0| 60| 10    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 28 e volta atual 9
+
+   | -1|      3| 60|  9 
+   | -1|      8|120|  8 
+   | -1|      0| 60| 10 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 3
+1º - 0
+2º - 3
+Liberei as threads
+As voltas completas de 3 eh == 10
+Mudei a velocidade do ciclista 3 de 60 para 30
+As voltas completas de 8 eh == 9
+Mudei a velocidade do ciclista 8 de 30 para 60
+As voltas completas de 0 eh == 11
+Mudei a velocidade do ciclista 0 de 60 para 30
+ITERACAO 29 e volta atual 9
+
+  3|120| 10    | -1|    
+  8| 60|  9    | -1|    
+  0|120| 11    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 3 e nCiclistas: 3
+1º - 0
+2º - 3
+3º - 8
+1º - 0
+2º - 3
+3º - 8
+Mudei a Pista, se liga: 
+  3|120| 10    | -1|    
+  8| 60|  9    | -1|    
+  0|120| 11    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 30 e volta atual 10
+
+  3|120| 10    | -1|    
+   | -1|      8| 60|  9 
+  0|120| 11    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 3
+1º - 0
+2º - 3
+Liberei as threads
+As voltas completas de 8 eh == 10
+ITERACAO 31 e volta atual 10
+
+   | -1|      3|120| 10 
+  8| 60| 10    | -1|    
+   | -1|      0|120| 11 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 3 e nCiclistas: 3
+1º - 0
+2º - 3
+3º - 8
+1º - 0
+2º - 3
+3º - 8
+O último é: 8
+O último não quebrou
+Mudei a Pista, se liga: 
+   | -1|      3|120| 10 
+   | -1|      0|120| 11 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 32 e volta atual 11
+
+   | -1|      3|120| 10 
+   | -1|      0|120| 11 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 1 e nCiclistas: 2
+1º - 0
+Liberei as threads
+As voltas completas de 3 eh == 11
+Mudei a velocidade do ciclista 3 de 30 para 60
+As voltas completas de 0 eh == 12
+Mudei a velocidade do ciclista 0 de 30 para 60
+ITERACAO 33 e volta atual 11
+
+  3| 60| 11    | -1|    
+  0| 60| 12    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 2
+1º - 0
+2º - 3
+1º - 0
+2º - 3
+Mudei a Pista, se liga: 
+  3| 60| 11    | -1|    
+  0| 60| 12    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 34 e volta atual 12
+
+   | -1|      3| 60| 11 
+   | -1|      0| 60| 12 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 1 e nCiclistas: 2
+1º - 0
+Liberei as threads
+As voltas completas de 3 eh == 12
+Mudei a velocidade do ciclista 3 de 60 para 30
+As voltas completas de 0 eh == 13
+ITERACAO 35 e volta atual 12
+
+  3|120| 12    | -1|    
+  0| 60| 13    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 2
+1º - 0
+2º - 3
+1º - 0
+2º - 3
+O último é: 3
+O último não quebrou
+Mudei a Pista, se liga: 
+  0| 60| 13    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+A última thread é 0 e foi liberada. O ciclista 0 GANHOU!
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 2
+1º - 0
+2º - 3
+1º - 0
+2º - 3
+Mudei a Pista, se liga: 
+  3| 60| 11    | -1|    
+  0| 60| 12    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 34 e volta atual 12
+
+   | -1|      3| 60| 11 
+   | -1|      0| 60| 12 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 1 e nCiclistas: 2
+1º - 0
+Liberei as threads
+As voltas completas de 3 eh == 12
+Mudei a velocidade do ciclista 3 de 60 para 30
+As voltas completas de 0 eh == 13
+ITERACAO 35 e volta atual 12
+
+  3|120| 12    | -1|    
+  0| 60| 13    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 2
+1º - 0
+2º - 3
+1º - 0
+2º - 3
+O último é: 3
+O último não quebrou
+Mudei a Pista, se liga: 
+  0| 60| 13    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+A última thread é 0 e foi liberada. O ciclista 0 GANHOU!
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 2
+1º - 0
+2º - 3
+1º - 0
+2º - 3
+Mudei a Pista, se liga: 
+  3| 60| 11    | -1|    
+  0| 60| 12    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 34 e volta atual 12
+
+   | -1|      3| 60| 11 
+   | -1|      0| 60| 12 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 1 e nCiclistas: 2
+1º - 0
+Liberei as threads
+As voltas completas de 3 eh == 12
+Mudei a velocidade do ciclista 3 de 60 para 30
+As voltas completas de 0 eh == 13
+ITERACAO 35 e volta atual 12
+
+  3|120| 12    | -1|    
+  0| 60| 13    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 2
+1º - 0
+2º - 3
+1º - 0
+2º - 3
+O último é: 3
+O último não quebrou
+Mudei a Pista, se liga: 
+  0| 60| 13    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+A última thread é 0 e foi liberada. O ciclista 0 GANHOU!
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 2
+1º - 0
+2º - 3
+1º - 0
+2º - 3
+Mudei a Pista, se liga: 
+  3| 60| 11    | -1|    
+  0| 60| 12    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+ITERACAO 34 e volta atual 12
+
+   | -1|      3| 60| 11 
+   | -1|      0| 60| 12 
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 1 e nCiclistas: 2
+1º - 0
+Liberei as threads
+As voltas completas de 3 eh == 12
+Mudei a velocidade do ciclista 3 de 60 para 30
+As voltas completas de 0 eh == 13
+ITERACAO 35 e volta atual 12
+
+  3|120| 12    | -1|    
+  0| 60| 13    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Contador de Ciclistas: 2 e nCiclistas: 2
+1º - 0
+2º - 3
+1º - 0
+2º - 3
+O último é: 3
+O último não quebrou
+Mudei a Pista, se liga: 
+  0| 60| 13    | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+   | -1|       | -1|    
+Liberei as threads
+A última thread é 0 e foi liberada. O ciclista 0 GANHOU!

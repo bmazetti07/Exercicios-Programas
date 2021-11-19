@@ -1,0 +1,6 @@
+Como compilar o binário:
+O binário do programa "ep2.c" pode ser compilado digitando apenas "make" na linha de comando do terminal.
+
+Como executar o binário:
+O binário é executado da seguinte maneira no terminal: ./ep2 <comprimento_da_pista> <numero_de_ciclistas>
+No início do programa, é perguntado se o usuário deseja utilizar a opção de Debug.

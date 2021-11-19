@@ -1,0 +1,32 @@
+Caso mais simples:
+- fazer com que ciclistas andem normalmente => cuidar dos casos de ultrapassagem   ====> FEITO
+- realizar a simulação em intervalos de 60ms   ====> FEITO
+
+Casos específicos a serem tratados depois:
+- chance dos ciclistas quebrarem em voltas múltiplos de 6 ====> FEITO
+- Paralelizar o código de workciclista (MUITO CAGADO) ====> ACHOOOO CORRIGIDO
+- RETARDATARIOS ====> "CORRIGIDO"
+- Resolver double-frees  =====> ACHOOOOO QUE ESTA CORRIGIDO
+- SEGFAULT EM ALGUM CASO =====> ACHOOOOO QUE ESTA CORRIGIDO
+
+/* PRINCIPAIS */
+- últimas 2 voltas - mudança de velocidade incluindo 90km/h => simulação a cada 20ms
+- output do programa => dados e demais informações
+- melhorar o print da pista ==> para output do programa
+
+semáforo daquela posição unlockado => quer dizer que ninguém está mexendo lá no momento
+
+/* CASOS IMPORTANTES A SE COLOCAR NOS SLIDES */
+- O programa exige que cada pista tenha pelo menos um espaço livre ==> realiza a ultrapassagem do modo antideadlock
+- Não faz nada caso o último ciclista de uma volta já quebrou em voltas futuras ==> finge que tirou por estar em último
+- Coloca nas pistas mais internas a cada volta ==> de modo a deixar um espaço livre
+- Matriz de semáforos para acesso à seção crítica e manter um nível de paralelização do código com várias threads
+- A ultrapassagem é feita pela faixa externa mais próxima a ele
+- Explicar verificação de quando é possível ultrapassar
+- Explicar como foi feita a barreira de sincronização + Explicar coordenador
+- Disposição inicial dos ciclistas
+- Modo de eliminação de ciclistas ==> o escalonador é quem escolhe qual vai ser eliminado, caso dois completarem ao mesmo tempo a volta
+- Como foi feito a decisão das últimas duas voltas
+
+/* OUTRA COISA IMPORTANTE (MAIXXXX IMPORTANTE) */
+- Compactar o bagui certo (pq 1,5 a menos é pakarai)
