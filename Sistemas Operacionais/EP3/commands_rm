@@ -1,0 +1,4 @@
+mount /a
+rmdir /dir0
+umount
+sai

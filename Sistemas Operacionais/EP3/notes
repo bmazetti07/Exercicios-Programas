@@ -1,0 +1,128 @@
+Criar um arquivo só, que representa todo o sistema de arquivos. Contém:
+- Bitmap
+- FAT
+- Metadados
+...
+Tudo em questão de tamanho é calculável previamente, menos conteúdo dos arquivos.
+
+*------------------------------------*
+
+Ordem de conteúdo do sistema de arquivos:
+- Bitmap
+- FAT
+- Conteúdo
+
+*------------------------------------*
+
+Coisas importantes a documentar nos slides depois:
+- No mount, ocorre a leitura do sistema de arquivos. E no unmount é onde ocorre a reescrita do sistema de arquivos,
+ou seja, é necessário dar unmount para ver as alterações nos sistema de arquivos.
+- É suposto que os arquivos do sistema de arquivos estão dispostos com base no conteúdo dos blocos de memória, em ordem crescente.
+- No comando cp, é suposto que o arquivo lido esteja em uma subpasta em relação ao programa.
+- É necessário dar mount antes de realizar qualquer operação no sistema de arquivos.
+- Falar sobre como foi feito a disposição dos arquivos.
+- É necessário que os arquivos escritos estejam em uma linha apenas.
+- Considerando que o número de caracteres máximo para nomes de diretórios e arquivos seja 20, só é possível alocar 
+
+*------------------------------------*
+
+COISAS A FAZER:
+- determinar número máximo de caracteres para nome de arquivos e diretórios para não ultrapassar o bloco de memória
+- determinar número máximo de arquivos presentes no diretório
+- ordenar o map de acordo com o bloco de memória
+- no comando cp, cuidar do caso em que não há mais blocos de memória livre
+
+*------------------------------------*
+
+Partes de código que podem ser importantes depois:
+- getline (sistemaArq, number, ' ');
+
+*------------------------------------*
+
+ATENÇÃO
+- Os metadados de diretórios ficam em um bloco de memória só pra eles
+- Os arquivos possuem blocos de memória para metadados e conteúdo
+- Sempre é necessário colocar o "/" para referenciar a raiz. Então, mkdir /A, cria o diretório A na raiz, cp Origem /teste, cria um arquivo dentro da pasta raíz.
+
+*------------------------------------*
+
+Disposição do Sistema de Arquivos:
+1 0 1 0 1 0 1 0 1 0 1
+-1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+/ RAIZ
+DIA MES ANO HORA MINUTO SEGUNDO (INSTANTE EM QUE FOI CRIADO)
+DIA MES ANO HORA MINUTO SEGUNDO (INSTANTE EM QUE FOI MODIFICADO)
+DIA MES ANO HORA MINUTO SEGUNDO (INSTANTE EM QUE FOI ACESSADO)
+00054 00087 00597 00254 00694 (Primeiro bloco onde estão localizados os arquivos e diretórios dentro do diretório atual)
+
+40
+iko.txt
+5000 (Tamanho em bytes)
+DIA MES ANO HORA MINUTO SEGUNDO (INSTANTE EM QUE FOI CRIADO)
+DIA MES ANO HORA MINUTO SEGUNDO (INSTANTE EM QUE FOI MODIFICADO)
+DIA MES ANO HORA MINUTO SEGUNDO (INSTANTE EM QUE FOI ACESSADO)
+Aqui eh o conteudo do arquivo iko.txt adwadawdadadad
+
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+5000
+00 00 0000 00 00 00
+00 00 0000 00 00 00
+00 00 0000 00 00 00
+
+
+
+
+
+
+
+
+
+60
+>>
+dwadawdawdwadawd
+
+59
+pok2.txt
+
+42
+LIVRE
+(OCUPADO)
+
+
+54
+/DIR
+DIA-MES-ANO-HORA-MINUTO-SEGUNDO (INSTANTE EM QUE FOI CRIADO)
+DIA-MES-ANO-HORA-MINUTO-SEGUNDO (INSTANTE EM QUE FOI MODIFICADO)
+DIA-MES-ANO-HORA-MINUTO-SEGUNDO (INSTANTE EM QUE FOI ACESSADO)
+59-41-36-978 (Primeiro bloco onde estão localizados os arquivos e diretórios dentro do diretório atual)
+
+87
+name.txt
+
+254
+/LOL
+
+597
+teste.txt
+
+978
+
+
+
+
+
+
+
+
+
+/RAIZ
+data
+data
+data
+40(DIR)
+
+/DIR
+data 
+data 
+data
+50(new.txt)-68(arq.txt)

@@ -1,0 +1,5 @@
+Como compilar o binário:
+O binário do programa "ep3.c" pode ser compilado digitando apenas "make" na linha de comando do terminal.
+
+Como executar o binário:
+O binário é executado da seguinte maneira no terminal: ./ep3
