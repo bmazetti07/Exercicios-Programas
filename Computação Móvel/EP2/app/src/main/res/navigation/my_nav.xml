@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/cardFragment">
+
+    <fragment
+        android:id="@+id/cardFragment"
+        android:name="com.mac0463ep2.CardFragment"
+        android:label="Card"
+        tools:layout="@layout/fragment_card" />
+
+    <fragment
+        android:id="@+id/weatherFragment"
+        android:name="com.mac0463ep2.WeatherFragment"
+        android:label="Weather"
+        tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.mac0463ep2.MapsFragment"
+        android:label="Maps"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.mac0463ep2.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
