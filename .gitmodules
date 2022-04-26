@@ -1,0 +1,3 @@
+[submodule "Redes/EP1-Redes"]
+	path = Redes/EP1-Redes
+	url = https://github.com/bmazetti07/EP1-Redes
